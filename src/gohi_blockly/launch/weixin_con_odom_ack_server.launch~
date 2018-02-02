@@ -1,0 +1,7 @@
+<launch>
+
+  	<node name="robot_blockly_server" pkg="gohi_blockly"   type="weixin_con_odom_ack_server.py" output="screen" />  
+        <node name="robot_blockly_webserver" pkg="gohi_blockly" type="pywebserver.py"/>
+     
+
+</launch>

@@ -1,0 +1,5 @@
+<launch>
+
+  <node name="kcf" pkg="gohi_follower" type="kcf_all" output="screen" />
+
+</launch>
